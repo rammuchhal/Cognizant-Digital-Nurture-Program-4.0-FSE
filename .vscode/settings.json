@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "Week3_SpringCore_Maven/HandsOn02_Impl_Dependency_Injection/Code/librarymanagement/src/main/java/com/library/repository",
+        "Week3_SpringCore_Maven/HandsOn02_Impl_Dependency_Injection/Code/librarymanagement/src/main/java/com",
+        "Week 1_Algorthms_Data Structures/handson06/code",
+        "Week3_SpringCore_Maven"
+    ],
+    "java.project.referencedLibraries": [],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
