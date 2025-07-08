@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11c87e08-1621-40d8-af23-1e7fa564484e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LibraryManagement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryManagement/src/main/java/org/example/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryManagement/src/main/java/org/example/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryManagement/src/main/java/org/example/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryManagement/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandsOn04_Creat_Config_Maven/New folder/logging/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandsOn04_Creat_Config_Maven/New folder/logging/src/main/java/com/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HandsOn04_Creat_Config_Maven/New folder/logging/target/classes/com/example/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2za8UxvITYcezwypmokCrMAuMCI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11c87e08-1621-40d8-af23-1e7fa564484e" name="Changes" comment="" />
+      <created>1751957843504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751957843504</updated>
+    </task>
+    <servers />
+  </component>
+</project>
