@@ -18,7 +18,7 @@ public class CountryController {
 
     @Autowired
     private CountryService countryService;
-    
+
     @RequestMapping("/country")
     public Country getCountryIndia() {
         LOGGER.info("START - getCountryIndia()");

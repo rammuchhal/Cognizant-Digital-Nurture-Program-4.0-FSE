@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Departments -->
+    <bean id="departmentDev" class="com.cognizant.employeemanagement.model.Department">
+        <property name="id" value="1"/>
+        <property name="name" value="Development"/>
+    </bean>
+
+    <bean id="departmentQA" class="com.cognizant.employeemanagement.model.Department">
+        <property name="id" value="2"/>
+        <property name="name" value="Quality Assurance"/>
+    </bean>
+
+    <bean id="departmentHR" class="com.cognizant.employeemanagement.model.Department">
+        <property name="id" value="3"/>
+        <property name="name" value="Human Resources"/>
+    </bean>
+
+    <!-- Department List -->
+    <bean id="departmentList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="departmentDev"/>
+                <ref bean="departmentQA"/>
+                <ref bean="departmentHR"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>
