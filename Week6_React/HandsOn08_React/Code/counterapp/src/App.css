@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  /* Space between the counter groups */
+}
+
+.counter-container span {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: black;
+  cursor: pointer;
+  min-width: 100px;
+  /* Ensure buttons have the same width */
+  transition: background-color 0.3s;
+}
+
+.btn-login {
+  background-color: #90ee90;
+  /* Light Green */
+  border-color: #2e8b57;
+}
+
+.btn-login:hover {
+  background-color: #7cfc00;
+}
+
+.btn-exit {
+  background-color: #add8e6;
+  /* Light Blue */
+  border-color: #4682b4;
+}
+
+.btn-exit:hover {
+  background-color: #87ceeb;
+}
+
+/* This will group the button and span together on larger screens */
+@media (min-width: 600px) {
+  .counter-container {
+    flex-direction: row;
+    gap: 40px;
+  }
+}

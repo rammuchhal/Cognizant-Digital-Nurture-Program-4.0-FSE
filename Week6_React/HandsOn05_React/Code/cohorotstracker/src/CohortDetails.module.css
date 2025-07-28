@@ -1,0 +1,29 @@
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* Added for better presentation */
+    font-family: sans-serif;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Styles the <dt> (description term) element.
+  Because this is a CSS Module, this style will only apply
+  to <dt> elements inside the component that imports this file.
+*/
+dt {
+    font-weight: 500;
+    /* Added for alignment to match the final image */
+    display: inline-block;
+    width: 110px;
+}
+
+/* Added for alignment */
+dd {
+    display: inline-block;
+    margin-left: 0;
+}
