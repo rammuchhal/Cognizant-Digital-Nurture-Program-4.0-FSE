@@ -1,0 +1,104 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styles for the main 3-column layout */
+.blogger-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.details-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  min-width: 250px;
+}
+
+.details-card h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.details-card div {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.details-card h4 {
+  margin: 0 0 5px 0;
+  color: #0056b3;
+}
+
+.details-card p {
+  margin: 0;
+  color: #555;
+}
+
+/* Styles for the examples section */
+.examples-container {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.examples-container h2,
+.examples-container h4 {
+  text-align: center;
+  color: #333;
+}
+
+.examples-container button {
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.examples-container button:hover {
+  background-color: #e0e0e0;
+}
+
+.examples-container hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.view-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .blogger-container {
+    flex-direction: column;
+  }
+}

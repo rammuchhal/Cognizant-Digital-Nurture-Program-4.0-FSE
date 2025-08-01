@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.office-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: inline-block;
+  /* To allow multiple cards side-by-side if needed */
+  width: calc(33.333% - 40px);
+  /* Adjust for 3 cards per row */
+  margin: 10px;
+  vertical-align: top;
+}
+
+.office-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.office-card h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .office-card {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .office-card {
+    width: calc(100% - 40px);
+  }
+}
